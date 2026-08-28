@@ -1,0 +1,12 @@
+# Runtime state (never publish)
+.pi-delegate/
+.thinkrail/
+
+# Local-only artifacts (kept for reference, not published)
+docs/
+AGENTS.md
+
+# Misc
+node_modules/
+*.log
+.DS_Store

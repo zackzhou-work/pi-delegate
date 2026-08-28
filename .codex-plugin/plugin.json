@@ -1,0 +1,31 @@
+{
+  "name": "pi",
+  "version": "0.1.0",
+  "description": "Delegate tasks to the local pi coding agent.",
+  "author": {
+    "name": "zackzhou",
+    "url": "https://github.com/zackzhou"
+  },
+  "homepage": "https://github.com/zackzhou/pi-delegate",
+  "license": "MIT",
+  "keywords": [
+    "pi",
+    "delegation",
+    "coding-agent",
+    "background-jobs"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Pi Delegate",
+    "shortDescription": "Delegate tasks to the local pi agent",
+    "longDescription": "Delegate tasks to the local pi coding agent: one entry point, background jobs, working-tree audit.",
+    "developerName": "zackzhou",
+    "category": "Engineering",
+    "capabilities": [
+      "Instructions"
+    ],
+    "defaultPrompt": [
+      "Use pi to implement, research, and review tasks."
+    ]
+  }
+}

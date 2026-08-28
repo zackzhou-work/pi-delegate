@@ -1,0 +1,16 @@
+{
+  "name": "pi-delegate",
+  "owner": {
+    "name": "zackzhou",
+    "url": "https://github.com/zackzhou"
+  },
+  "description": "pi-delegate: delegate tasks to the local pi coding agent from Claude Code and Codex.",
+  "plugins": [
+    {
+      "name": "pi",
+      "source": "./",
+      "description": "One entry point (/pi) that runs tasks on the local pi agent as background jobs with collect/status/cancel/continue.",
+      "tags": ["pi", "delegation", "coding-agent"]
+    }
+  ]
+}

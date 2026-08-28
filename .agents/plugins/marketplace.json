@@ -1,0 +1,20 @@
+{
+  "name": "pi-delegate",
+  "interface": {
+    "displayName": "Pi Delegate"
+  },
+  "plugins": [
+    {
+      "name": "pi",
+      "source": {
+        "source": "local",
+        "path": "."
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Engineering"
+    }
+  ]
+}

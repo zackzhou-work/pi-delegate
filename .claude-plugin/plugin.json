@@ -1,0 +1,16 @@
+{
+  "name": "pi",
+  "version": "0.1.0",
+  "description": "Delegate tasks to the local pi coding agent from Claude Code.",
+  "author": {
+    "name": "zackzhou",
+    "url": "https://github.com/zackzhou"
+  },
+  "license": "MIT",
+  "keywords": [
+    "pi",
+    "delegation",
+    "coding-agent",
+    "background-jobs"
+  ]
+}
